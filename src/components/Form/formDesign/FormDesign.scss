@@ -1,0 +1,25 @@
+.inpu {
+  
+}
+
+@mixin inpu($width) {
+  width: $width;
+  height: 45px;
+  text-align: left;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+.form-section {
+  height: 45px;
+  .input {
+    @include inpu(380px)
+  }
+  .button {
+    @include inpu(150px);
+    margin-top: -3px;
+    margin-left: 10px;
+  }
+}

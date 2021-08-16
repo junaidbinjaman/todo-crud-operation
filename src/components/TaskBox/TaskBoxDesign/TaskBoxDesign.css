@@ -1,0 +1,54 @@
+.task-box {
+  background-color: white;
+  color: black;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 2px 5px 10px black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  height: 60px;
+  margin-top: 30px;
+}
+.task-box h2 {
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  color: black;
+  font-weight: 500;
+}
+
+.taskbox-text {
+  outline: none;
+}
+
+.action {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.action-button {
+  background-color: grey;
+  border: none;
+  margin-top: 0px;
+  cursor: pointer;
+  margin-left: 20px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.action-button:hover {
+  background-color: #cabbbb;
+}
+
+.taskbox-text {
+  border: none;
+  font-size: 25px;
+  background-color: white;
+  text-align: left;
+}/*# sourceMappingURL=TaskBoxDesign.css.map */
